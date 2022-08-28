@@ -1,0 +1,204 @@
+@media only screen and (max-width: 740px) {
+    .header{
+        display: block;
+        position: absolute;
+        height: 60px;
+    }
+
+    .header__side{
+        width: 100%;
+        height: 300px;
+    }
+
+    .header .header__navbar{
+        display: block;
+    }
+
+    .header .header__navbar-list{
+        display: none;
+        padding: 0;
+    }
+
+    .header__navbar-item{
+        display: block;
+        padding: 10px;
+    }
+
+    .header__sign-item{
+        display: block;
+    }
+
+    .header__navbar-list .header__navbar-item{
+        color: #fff;
+    }
+
+    .header__navbar-item:hover{
+        color: #33ccff;
+        background-color: rgb(83, 63, 63);
+    }
+
+    
+
+    .header .header__navbar-option{
+        display: none;
+    }
+
+    .header__side .btn-left,.btn-right{
+        position: absolute;
+        top: 30%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .header__side .btn-left,.btn-right i{
+        font-size: 3.4rem;
+    }
+
+    .header__side .btn-left:hover{
+        background:none;
+        color: black;
+    }
+
+    .header__side .btn-right:hover{
+        background:none;
+        color: black;
+    }
+    
+    .btn-list{
+        position: static;
+    }
+
+    .header__navbar-menu,.header__navbar-logo{
+        display: inline-block;
+
+    }
+
+    .header .header__navbar-logo img{
+        margin-top: 10px;
+    }
+
+    .header__navbar-menu{
+        float: right;
+        font-size: 3rem;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+
+    .header__up{
+        display: flex;
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        margin-top: 200px;
+        margin-left: 320px;
+        border-radius: 50%;
+    }
+
+    .header__up i{
+        position: fixed;
+        font-size: 2.4rem;
+        margin-top: 15px;
+        margin-left: 18px;
+    }
+
+    .content{
+        height: 4200px;
+    }
+
+    .content .content__text{
+        font-size: 2.2rem;
+    }
+
+    .content .content__hr{
+        width: 75px;
+    }
+
+    .content__member{
+        height: 3700px;
+
+    }
+
+    .content .content__hr-secon{
+        width: 200px;
+    }
+
+    .content .content__text-secon{
+        margin-left: 125px;
+    }
+
+    .content .luffy{
+        margin-top: 10px;
+        margin-left: 100px;
+
+    }
+
+    .content .content__row1{
+        display: block;
+    }
+
+    .content .content__row2{
+        display: block;
+    }
+
+    .content .content__row3{
+        display: block;
+    }
+
+    .content__zoro,.content__nami,.content__usopp,.content__sanji,.content__chopper,.content__robin,.content__franky,.content__brook,.content__jinbei{
+        margin-left: 100px;
+    }
+
+    .content__text-thrre{
+      margin-right: 70px;
+      margin-top: 20px;
+    }
+
+    .content__slide .content-press{
+        top: 4480px;
+        right: 220px;
+        
+    }
+    
+    .content__slide .content-next{
+        top: 4480px;
+        right: 120px;
+        
+    }
+
+    .content__images,.content__images img{
+        height: 65%;
+        width: 100%;
+    }
+
+    .content .content__infor{
+        margin-left: 100px;
+        font-size: 1.6rem;
+        top: 4200px;
+        text-align: center;
+        
+    }
+
+    .content .content__hr-ship{
+        width: 42px;
+    }
+
+    .footer{
+        width: 100%;
+        height: 530px;
+    }
+
+    .footer img{
+        height: 400px;
+    }
+  }
+
+  @media only screen and (max-width: 740px) {
+    .header .header__navbar-list.responsive{
+        display: block;
+        padding: 0;
+        background-color: black;
+    }
+
+  }

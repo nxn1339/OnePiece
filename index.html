@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" href="/img/logo.jpg">
+    <title>One Piece</title>
+</head>
+<body>
+    <div class="header" id="id_header">
+        <!--Navbar left-->
+        <div id="id_navbar" class="header__navbar">
+            <div  class="header__navbar-logo">
+                <a href="#onepiece"><img src="/img/logo.jpg" alt="logo one piece"></a>
+               
+            </div>
+
+            <div id="mobilemenu" class="header__navbar-menu" onclick="responsive()"><i class="fa-solid fa-bars"></i></div>
+
+            <div id="menu_list" class="header__navbar-list">
+                <a class="header__navbar-item "href="#onepiece">One piece</a>
+                <a class="header__navbar-item "href="#member">Member</a>
+                <a class="header__navbar-item "href="#ship">Ship</a>
+                <a class="header__navbar-item "href="#map">Map</a>
+                <a class="header__navbar-item header__navbar-hiden" href="">LOGIN</a>
+                <a class="header__navbar-item header__navbar-hiden" href="">SIGN UP</a>
+            </div>
+        </div>
+        <!--Navbar right-->
+        <div class="header__navbar-option">
+            <select class="header__navbar-select" name="language" id="option">
+                <option value="lang">Language</option>
+                <option value="lang">Vietnames</option>
+                <option value="lang">English</option>
+            </select>
+
+            <div class="header__sign">
+                <a class="header__sign-item" href="">LOGIN</a>
+                <a class="header__sign-item" href="">SIGN UP</a>
+            </div>
+        </div>     
+    </div>
+     <!--Navbar slide-->
+    <div id="onepiece" class="header__side">
+        <div class="header__images">
+            <img class="images" src="/img/ss1.jpg" alt="anh1">
+            <img class="images" src="/img/ss2.jpg" alt="anh2">
+            <img class="images" src="/img/ss3.jpg" alt="anh3">
+            <img class="images" src="/img/ss4.jpg" alt="anh4">
+        </div>
+        <div class="btn-left"><i onclick="next(-1)" class="fa-solid fa-angle-left"></i></div>
+        <div class="btn-right"><i onclick="next(1)" class="fa-solid fa-angle-right"></i></div>
+        <ul class="btn-list">
+            <li onclick="nextSlide(1)" id="btn1" class="btn-item"></li>
+            <li onclick="nextSlide(2)" id="btn2" class="btn-item"></li>
+            <li onclick="nextSlide(3)" id="btn3" class="btn-item"></li>
+            <li onclick="nextSlide(4)" id="btn4" class="btn-item"></li>
+        </ul>
+    </div> 
+
+    <div class="header__up">
+        <a href="#id_header"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    
+
+    <div class="content">
+        <div class="content__text" id="member">Member</div>
+        <div class="content__hr"></div>
+
+        <div class="content__member">
+            <div class="content__lufy">
+                <div class="content__text content__text-secon">Thuyền Trưởng</div>
+                <div class="content__hr content__hr-secon"></div>
+                <div class="luffy frames">
+                    <img src="../img/wanted/luffy.jpg" alt="anh luffy">
+                </div>
+            </div>
+
+            <div class="content__hr content__hr-secon content__hr-color"></div>
+
+            <div class="content__row1">
+                <div class="content__zoro">
+                    <div class="content__text-thrre">Kiếm Sĩ</div>
+                    <div class="frames"><img src="/img/wanted/zoro.jpg" alt="anh zoro"></div> 
+                </div>
+    
+                <div class="content__nami">
+                    <div class="content__text-thrre">Hoa Tiêu</div>
+                    <div class="frames"><img src="/img/wanted/nami.jpg" alt="anh nami"></div>  
+                </div>
+    
+                <div class="content__usopp">
+                    <div class="content__text-thrre">Xạ Thủ</div>
+                    <div class="frames"><img src="/img/wanted/usopp.jpg" alt="anh usopp"></div> 
+                </div>
+            </div>
+            
+            <div class="content__hr content__hr-secon content__hr-color"></div>
+
+            <div class="content__row2">
+                <div class="content__sanji">
+                    <div class="content__text-thrre">Đầu Bếp</div>
+                    <div class="frames"><img src="/img/wanted/sanji.jpg" alt="anh sanji"></div> 
+                </div>
+            
+                <div class="content__chopper">
+                    <div class="content__text-thrre">Bác Sĩ</div>
+                    <div class="frames"><img src="/img/wanted/chopper.jpg" alt="anh chopper"></div> 
+                </div>
+
+                <div class="content__robin">
+                    <div class="content__text-thrre">Khảo Cổ Học</div>
+                    <div class="frames"><img src="/img/wanted/robin.jpg" alt="anh robin"></div> 
+                </div>
+            </div>
+            
+            <div class="content__hr content__hr-secon content__hr-color"></div>
+
+            <div class="content__row3">
+                <div class="content__franky">
+                    <div class="content__text-thrre">Thợ Đóng Tàu</div>
+                    <div class="frames"><img src="/img/wanted/franky.jpg" alt="anh franky"></div> 
+                </div>
+
+                <div class="content__brook">
+                    <div class="content__text-thrre">Nhạc Công</div>
+                    <div class="frames"><img src="/img/wanted/brook.jpg" alt="anh brook"></div> 
+                </div>
+    
+                <div class="content__jinbei">
+                    <div class="content__text-thrre">Lái Tàu</div>
+                    <div class="frames"><img src="/img/wanted/jinbei.jpg" alt="anh jinbei"></div> 
+                </div>
+            </div>
+        </div>
+
+        <div class="content__text" id="ship">Ship</div>
+        <div class="content__hr content__hr-ship"></div>
+        <div class="content__side">
+            <div class="content__images">
+                <img class="c_images" src="/img/merry.jpg" alt="merry">
+                <img class="c_images" src="/img/sunny.jpg" alt="sunny">
+            </div>
+
+            <div class="content__slide">
+                
+                <div class="content-next" onclick="nextShip(2),nextText()" ><p class="textnext">2</p></div>
+                <div class="content-press" onclick="nextShip(1),pressText()"><p class="textnext">1</p></div>
+                
+            </div>
+
+            <div class="content__infor">
+                <p id="name">Going Merry</p>
+                <p id="start">Xuất hiện: Chapter 41; tập 17</p>
+                <p id="end">Lần cuối xuất hiện: Chapter 430/ tập 312</p>
+            </div>
+        </div>
+        
+
+    </div>
+
+    <div class="footer">
+        <div class="footer__text" id="map">Map</div>
+        <div class="footer__hr"></div>
+        <img id="map" src="/img/map.jpg" alt="">
+    </div>
+    <script src="/js/slide.js"></script>
+    <script src="/js/responsive.js"></script>
+</body>
+</html>

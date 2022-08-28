@@ -1,0 +1,360 @@
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    background-color:#fff ;
+    width: 100%;
+    height: 75px;
+    z-index: 100;
+    top: 0;
+    
+}
+
+.header__navbar{
+    display: flex;
+}
+
+.header__navbar-logo,.header__navbar-logo img{
+    width: 55px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header__navbar-list{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.header__navbar-list .header__navbar-item{
+    padding-left: 20px;
+    text-decoration: none;
+    color: rgb(24, 20, 20);
+}
+
+.header__navbar-item:hover{
+    color: #33ccff;
+}
+
+.header__navbar-option{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.header__navbar-hiden{
+    display: none;
+}
+
+.header__navbar-menu{
+    display: none;
+}
+
+.header .header__sign{
+    display: block;
+}
+
+.header__navbar-select{
+    margin-right: 30px;
+}
+
+.header__sign{
+    margin-right: 30px;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.header__sign-item{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.header__sign-item:hover{
+    color: #ff0066;
+}
+
+.header__side{
+    width: 100%;
+    height: 670px;
+    overflow: hidden;
+}
+
+.header__images,.header__images img{
+    height: 100%;
+    width: 100%;
+}
+
+.btn-list{
+    list-style: none;
+    position: absolute;
+    margin-left: 540px;
+    bottom: 40px;
+}
+
+.header__side .btn-item{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.header__side .btn-left,.btn-right{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.header__side .btn-left{
+    margin-left: 20px;
+}
+
+.header__side .btn-right{
+    right: 0;
+    margin-right: 20px;
+}
+
+.btn-left i{
+    padding-left: 15px;
+}
+
+.btn-right i{
+   padding-left: 15px;
+   position: absolute;
+}
+
+.header__side .btn-left,.btn-right i{
+    font-size: 5.4rem;
+}
+
+.header__side .btn-left:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.header__side .btn-right:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.header__up{
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+    display: none;
+}
+
+.content{
+    width: 100%;
+    height: 2400px;
+}
+
+.content h1{
+    position: absolute;
+}
+
+.content .content__text{
+    font-size: 3.4rem;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.content .content__hr{
+   width: 115px;
+   height: 4px;
+   background-color: #ff0066;
+   margin-left: 52px;
+   display: block;
+}
+
+.content__member{
+    width: 100%;
+    height: 1500px;
+}
+
+.content .frames{
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.content__member img{
+    max-width: 100%;
+    height: 300px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.content__member img:hover{
+    transform: scale(1.1);
+}
+
+.content .luffy{
+    margin-top: 10px;
+    margin-left: 600px;
+}
+
+.content .content__text-secon{
+    margin-left: 98px;
+}
+
+.content .content__hr-secon{
+    width: 1210px;
+    height: 3px;
+    margin-left: 102px;
+    background-color: #0066ff;
+    margin-top:15px;
+    border-radius: 5px;
+}
+
+.content .content__hr-color{
+    background-color: #d1d1e0;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.content .content__row1{
+    display: flex;
+}
+
+.content__zoro{
+    margin-left: 200px;
+}
+
+.content__nami,.content__usopp{
+    margin-left: 200px;
+}
+
+.content .content__row2{
+    display: flex;
+}
+
+.content__sanji{
+    margin-left: 200px;
+}
+
+.content__chopper,.content__robin{
+    margin-left: 200px;
+}
+
+.content .content__row3{
+    display: flex;
+}
+
+.content__franky{
+    margin-left: 200px;
+}
+
+.content__brook,.content__jinbei{
+    margin-left: 200px;
+}
+
+.content__text-thrre{
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content .content__hr-ship{
+    width: 65px;
+}
+
+
+.content .content__side{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.content__images,.content__images img{
+    height: 100%;
+    width: 100%;
+}
+
+.content .content__infor{
+    margin-left: 100px;
+    font-size: 2.4rem;
+    position: absolute;
+    top: 2420px;
+    color: black;
+}
+
+.content .content__infor p{
+    margin-top: 60px;
+}
+
+.content #name{
+    font-size: 3.4rem;
+    color: #ff0066;
+}
+
+.content__slide .content-press{
+    width: 50px;
+    height: 20px;
+    top: 2950px;
+    margin-left: 600px;
+    position: absolute;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.content__slide .content-next{
+    width: 50px;
+    height: 20px;
+    top: 2950px;
+    margin-left: 714px;
+    position: absolute;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.content__slide .textnext{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    height: 800px;
+}
+
+.footer img{
+    width: 100%;
+    height: 800px;
+}
+
+.footer .footer__text{
+         font-size: 3.4rem;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    
+}
+
+.footer .footer__hr{
+    width: 60px;
+    height: 4px;
+    background-color: #ff0066;
+    margin-left: 52px;
+    display: block;
+    margin-bottom: 20px;
+}
